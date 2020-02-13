@@ -1,0 +1,11 @@
+.amount {
+  border: rgb(46, 2, 82);
+}
+.container {
+  width: 750px;
+  margin: 0 auto;
+}
+.curreancy {
+  display: flex;
+  justify-content: center;
+}

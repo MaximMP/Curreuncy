@@ -35,6 +35,11 @@
   background: transparent;
   border-radius: 7px;
 }
-.curreuncy-value {
+.curreuncy-vaule {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.amount {
+  border: 2px solid rgb(230, 192, 23);
 }

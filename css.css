@@ -5,7 +5,7 @@
   max-width: 500px;
   width: 100%;
   margin: 0 auto;
-  padding: 55px;
+  padding: 50px 0;
 }
 .curreuncy {
   display: flex;
@@ -42,4 +42,27 @@
 }
 .amount {
   border: 2px solid rgb(230, 192, 23);
+}
+@media (max-width: 500px) {
+  .amount {
+    width: 100%;
+  }
+
+  #curreuncy-one,
+  #curreuncy-two {
+    margin-right: 5px;
+  }
+}
+.curreuncy-title {
+  font-size: 15px;
+}
+.curreuncy-vaule {
+  flex-direction: column;
+}
+#swap {
+  margin: 15px;
+}
+div#rate {
+  font-size: 15px;
+  margin-bottom: 15px;
 }
